@@ -38,23 +38,19 @@
 }
 
 .container{
-  width: 100vw;
-  height: 100vh;
+  width: 500px;
+  height: 400px;
   display: flex;
   justify-content: center;
  flex-direction: column;
  
   margin-top: 50px;
-}
-
-
-.action{
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
  
 }
+
+
+
 span{
+
   color: rgb(255, 8, 8);
 }
