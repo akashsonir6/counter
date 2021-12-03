@@ -11,24 +11,25 @@ function App() {
             <span>{Counter}</span>
           </h1>
         </div>
-        <div className="action">
-          <button
-            className="btn btn-primary"
-            onClick={() => setCounter(Counter + 1)}
-          >
-            Increment +1
-          </button>
-
-          <button
-            className="btn btn-info "
-            onClick={() => setCounter(Counter - 1)}
-          >
-            Decrement -1
-          </button>
-          <button className="btn btn-danger" onClick={() => setCounter(0)}>
-            Reset
-          </button>
-        </div>
+        <button
+          className="btn btn-primary"
+          onClick={() => setCounter(Counter + 1)}
+        >
+          Increment +1
+        </button>
+        <br />
+        <br />
+        <button
+          className="btn btn-info "
+          onClick={() => setCounter(Counter - 1)}
+        >
+          Decrement -1
+        </button>{" "}
+        <br />
+        <br />
+        <button className="btn btn-danger" onClick={() => setCounter(0)}>
+          Reset
+        </button>
       </div>
     </div>
   );
